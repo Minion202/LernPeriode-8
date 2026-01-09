@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://fh50xycuo2iv"]
+
+[ext_resource type="Texture2D" uid="uid://dihforvskh2dt" path="res://assets/ChatGPT Image Jan 9, 2026, 11_18_09 AM.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dgiyxelq26yi4" path="res://player.gd" id="1_onrkg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(1015, 0, 203, 222)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(1218, 0, 203, 222)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hqtel"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_onrkg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3pqv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sweqy"]
+radius = 40.112343
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_onrkg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-94, -88)
+scale = Vector2(1, 0.796875)
+sprite_frames = SubResource("SpriteFrames_hqtel")
+autoplay = "default"
+frame_progress = 0.3158543
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-104, -55)
+shape = SubResource("CircleShape2D_sweqy")
