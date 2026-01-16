@@ -20,12 +20,18 @@ Ich habe einen eigenen Charakter entworfen, dabei habe ich AI als Unterstützung
 
 ## 16.01.
 
-- [ ] An meinem Player weiterarbeiten
-- [ ] Worldmap Building mit Blöcken etc.
-- [ ] Platforms erstellen, dass wenn ich wo hin springe mein Player darauf springen kann
-- [ ] Meine eigenen Anpassungen für meine Sugar World Spiel
+- [x] An meinem Player weiterarbeiten
+- [x] Worldmap Building mit Blöcken etc.
+- [x] Platforms erstellen, dass wenn ich wo hin springe mein Player darauf springen kann
+- [x] Meine eigenen Anpassungen für mein eigenes Spiel
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich zuerst an meinem Spieler gearbeitet. Dabei habe ich gemerkt, dass mir das grundlegende Prinzip nicht gefällt. Deshalb habe ich ein neues Projekt gestartet und neue Assets verwendet.
+Dieses neue Konzept gefällt mir deutlich besser. Ich habe Plattformen und verschiedene Blöcke gebaut und anschliessend das Level so umgesetzt, dass mein neuer Spieler, ein Dino, auf die Blöcke springen kann.
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+## 23.01. & Nach den Ferien
 
+- [ ] Weitere Player animationen hinzufügen, (wie z.B. rennen, laufen, drehen, sterben etc.)
+- [ ] An meiner Worldmap weiterarbeiten, einen Hintergrund hinzufügen, vielleicht auch Sounds
+- [ ] Feinde erstellen im Spiel, gegen die ich Kämpfen kann
+- [ ] Etwas selbst dazu hinzufügen, wie zum Beispiel Leben(Er hat am Anfang des Spiels 3 Leben)
+- [ ] Pizza erstellen (So was, wie Punkte die dem Player stärke oder einfach ein Leben bekommen kann)
