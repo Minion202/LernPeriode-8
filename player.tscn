@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://dur4jldo0opfg"]
+
+[ext_resource type="Texture2D" uid="uid://ba87khpwejft8" path="res://assets/dinoCharactersVersion1.1/sheets/DinoSprites - doux.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dug4s2ogmasvf" path="res://player.gd" id="1_onrkg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(0, 0, 23, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3pqv"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(23, 0, 23, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hqtel"]
+atlas = ExtResource("1_4flbx")
+region = Rect2(46, 0, 23, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sweqy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_onrkg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3pqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hqtel")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2hs0m"]
+radius = 20.09975
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_onrkg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(109.99999, -15)
+scale = Vector2(3.9565217, 3.9166667)
+sprite_frames = SubResource("SpriteFrames_sweqy")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.24898902
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(113, 0)
+shape = SubResource("CircleShape2D_2hs0m")
