@@ -30,8 +30,12 @@ Dieses neue Konzept gefällt mir deutlich besser. Ich habe Plattformen und versc
 
 ## 23.01. & Nach den Ferien
 
-- [ ] Weitere Player animationen hinzufügen, (wie z.B. rennen, laufen, drehen, sterben etc.)
-- [ ] An meiner Worldmap weiterarbeiten, einen Hintergrund hinzufügen, vielleicht auch Sounds
-- [ ] Feinde erstellen im Spiel, gegen die ich Kämpfen kann
-- [ ] Etwas selbst dazu hinzufügen, wie zum Beispiel Leben(Er hat am Anfang des Spiels 3 Leben)
-- [ ] Pizza erstellen (So was, wie Punkte die dem Player stärke oder einfach ein Leben bekommen kann)
+- [x] Weitere Player animationen hinzufügen, (wie z.B. rennen, laufen, drehen, sterben etc.)
+- [x] An meiner Worldmap weiterarbeiten, einen Hintergrund hinzufügen vielleicht
+- [x] Platforms hinzufügen, die sich bewegen können
+- [x] Mein Charakter kann sterben, wenn er z.B. aus der Map fliegt
+- [x] So was wie Punkte erstellen die dem Player stärke geben kann etc.
+- [ ] 
+Heute bin ich gut vorangekommen. Ich habe einen Hintergrund erstellt sowie Platforms, Coins, die sich bewegen oder einsammeln lassen.
+Zusätzlich habe ich meinem Player neue Animationen gegeben, zum Beispiel fürs Rennen, Springen und für den Seitenwechsel. Wenn der Player aus der Map fällt, stirbt er jetzt auch. Insgesamt bin ich stolz auf das Ergebnis, weil alles sauber funktioniert und das Spiel deutlich lebendiger wirkt.
+
