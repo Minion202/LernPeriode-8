@@ -35,7 +35,8 @@ Dieses neue Konzept gefällt mir deutlich besser. Ich habe Plattformen und versc
 - [x] Platforms hinzufügen, die sich bewegen können
 - [x] Mein Charakter kann sterben, wenn er z.B. aus der Map fliegt
 - [x] So was wie Punkte erstellen die dem Player stärke geben kann etc.
-- [ ] 
+
 Heute bin ich gut vorangekommen. Ich habe einen Hintergrund erstellt sowie Platforms, Coins, die sich bewegen oder einsammeln lassen.
 Zusätzlich habe ich meinem Player neue Animationen gegeben, zum Beispiel fürs Rennen, Springen und für den Seitenwechsel. Wenn der Player aus der Map fällt, stirbt er jetzt auch. Insgesamt bin ich stolz auf das Ergebnis, weil alles sauber funktioniert und das Spiel deutlich lebendiger wirkt.
+
 
