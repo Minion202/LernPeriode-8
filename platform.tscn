@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ly1qwnq12qtm"]
+
+[ext_resource type="Texture2D" uid="uid://bq8pavyw6co6t" path="res://assets/free-swamp-game-tileset-pixel-art/3 Objects/Ridges/1.png" id="1_mi635"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s8bxr"]
+size = Vector2(103, 30.75)
+
+[node name="platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(3, 26.000002)
+scale = Vector2(1.1853932, 1.3461539)
+texture = ExtResource("1_mi635")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, 27.375)
+shape = SubResource("RectangleShape2D_s8bxr")
