@@ -1,6 +1,8 @@
 # Lern Periode 8
 ## Dino Game mit Godot 
 
+<img width="1126" height="558" alt="lernperiode-8" src="https://github.com/user-attachments/assets/a8f485f4-a954-4b39-acb5-03dcf7b3124a" />
+
 ## Godot
 Ich habe mich für Godot entschieden, weil ich mich allgemein für Spiele interessiere und auch in meiner Freizeit 
 gerne ein eigenes Spiel programmieren möchte.
