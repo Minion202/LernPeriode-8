@@ -1,4 +1,5 @@
-# Lern-Periode 8
+# Lern Periode 8
+## Dino Game mit Godot 
 
 ## Godot
 Ich habe mich für Godot entschieden, weil ich mich allgemein für Spiele interessiere und auch in meiner Freizeit 
